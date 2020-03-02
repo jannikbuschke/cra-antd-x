@@ -6,7 +6,7 @@ This is a boilerplate project for a React based Single Page Application. It is b
 
 :white_check_mark: Awesome development setup (cra, cra-rewired, typescript, fast-refresh)
 
-:white_check_mark: Awesome UI Components (ant design)
+:white_check_mark: Awesome UI Components (ant design, themeable)
 
 :white_check_mark: Client side routing (react-router)
 
