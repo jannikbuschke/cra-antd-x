@@ -1,24 +1,37 @@
 import React from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import { Formik } from "formik"
+import { Input, SubmitButton, Form } from "formik-antd"
+import { notification } from "antd"
+import { AntDesignOutlined } from "@ant-design/icons"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save for live refresh.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+
+      <div style={{ background: "white", padding: "20px" }}>
+        <Formik
+          initialValues={{ field1: "hello world" }}
+          onSubmit={(values, f) => {
+            notification.info({ message: values.field1 })
+            f.setSubmitting(false)
+          }}
+        >
+          <Form>
+            <Input name="field1" />
+            <SubmitButton
+              style={{ marginTop: 10 }}
+              icon={<AntDesignOutlined />}
+            >
+              Submit
+            </SubmitButton>
+          </Form>
+        </Formik>
+      </div>
     </div>
   )
 }
