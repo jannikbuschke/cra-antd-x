@@ -1,6 +1,6 @@
 {
   "name": "cra-antd-x",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "formik-antd": "2.0.1",
