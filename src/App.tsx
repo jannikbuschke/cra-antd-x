@@ -5,6 +5,8 @@ import { Formik } from "formik"
 import { Input, SubmitButton, Form } from "formik-antd"
 import { notification } from "antd"
 import { AntDesignOutlined } from "@ant-design/icons"
+import { TestModule } from "glow-module"
+import "antd/dist/antd.css"
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
           </Form>
         </Formik>
       </div>
+      <TestModule />
     </div>
   )
 }
