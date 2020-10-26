@@ -1,6 +1,6 @@
 {
-  "name": "cra-antd-x",
-  "version": "0.3.0",
+  "name": "TemplateName-client",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "16.13.1",
