@@ -17,7 +17,8 @@
     "react-scripts": "4.0.3",
     "react-query": "3.4.0",
     "@ant-design/icons": "4.2.2",
-    "react-use": "17.1.0"
+    "react-use": "17.1.0",
+    "glow-react": "0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
