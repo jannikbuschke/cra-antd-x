@@ -1,6 +1,6 @@
 {
   "name": "TemplateName-client",
-  "version": "0.17.0",
+  "version": "0.22.0",
   "private": true,
   "dependencies": {
     "react": "17.0.2",
